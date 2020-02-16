@@ -8,7 +8,7 @@ Parameters:
   CacheNodeType:
     Description: The instance type the nodes will launch under.
     Type: String
-    Default: cache.m3.medium
+    Default: cache.t2.micro
     AllowedValues:
       - cache.t2.micro
       - cache.t2.small
